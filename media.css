@@ -1,0 +1,36 @@
+@media (max-width: 750px){
+  .translit{
+    height: 100%;
+  }
+  .translit-body__rus{
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .translit-body{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 350px){
+  .translit-header__title{
+    display: flex;
+    flex-direction: column;
+  }
+  .translit-header__text{
+    display: block;
+  }
+  .translit-header__button{
+    display: block;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .translit-body-box{
+    width: 0;
+    min-width: 280px;
+    text-align: center;
+  }
+  .translit-header__title{
+    min-width: 280px;
+  }
+}

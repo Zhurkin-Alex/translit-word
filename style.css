@@ -1,0 +1,82 @@
+.translit{
+  height: 100vh;
+  background-image: url(./img/abstract-digital-background-with-connecting-dots-and-lines_1048-5812.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.translit-title{
+  padding-top: 100px;
+  padding-bottom: 100px; 
+}
+.translit-header{
+  display: flex;
+  justify-content: center;
+}
+.translit-header__title{
+  padding: 20px 15px;
+  width: 295px;
+  background-image:url(./img/romb.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(156, 56, 238); */
+  border: 2px solid rgb(104, 103, 103);
+  border-radius: 4px;
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 400;
+   
+}
+.translit-header__text{
+  padding: 5px 3px;
+  outline:none;
+}
+.translit-header__button{
+  cursor: pointer;
+  padding: 5px 3px;
+}
+.translit-body{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+}
+.translit-body__rus{
+  margin-right: 25px;
+  
+}
+.translit-body-box{
+  padding: 25px 50px 0;
+  /* background-color: rgb(156, 56, 238); */
+  background-image: url(./img/back.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+  border: 2px solid rgb(104, 103, 103);
+  border-radius: 4px;
+  width: 300px;
+  min-height: 400px;
+}
+.translit-body__headerText{
+  border-bottom: 2px solid rgb(12, 15, 7);
+  margin-bottom: 25px;
+}
+
+.boxRusWord, .boxKirWord{
+  text-align: left;
+  padding: 8px 5px;
+  display: flex;
+  position: relative;
+  font-size: 18px;
+}
+
+.boxRusDiv, .boxKirDiv{
+  order: 1;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+/* font-family: 'Lexend Mega', sans-serif;
+font-family: 'Playfair Display', sans-serif;*/
